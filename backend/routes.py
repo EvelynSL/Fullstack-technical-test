@@ -7,6 +7,14 @@ router = APIRouter(
     tags=["Items"],
 )
 
+@router.get("/")
+def welcome():
+    return {
+        "message": "Welcome to our API!",
+        "status": "active",
+        "version": "1.0.0",
+    }
+
 @router.get("/items", response_model=ItemsResponse)
 def get_items():
 

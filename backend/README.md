@@ -24,3 +24,6 @@ pip install -r requirements.txt
 
 ## Run the development server
 fastapi dev main.py
+
+## Run Unit Tests
+python3 -m pytest tests/test_items_routes.py
