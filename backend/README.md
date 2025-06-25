@@ -12,8 +12,12 @@ This is a Python-based API built with FastAPI for managing a list of items. It f
 # (Recommended) Create and activate a virtual environment
 ## VENV
 python3 -m venv env
-source env/bin/activate        # macOS/Linux
-.\env\Scripts\activate         # Windows
+
+## macOS
+source env/bin/activate
+
+## Windows
+.\env\Scripts\activate         
 
 ## Install the dependencies
 pip install -r requirements.txt
