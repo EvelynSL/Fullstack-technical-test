@@ -1,4 +1,4 @@
-## Items API Service
+# Items API Service
 
 This is a Python-based API built with FastAPI for managing a list of items. It follows a modular structure for clarity and simplicity, and uses Pydantic for request/response validation.
 
@@ -11,13 +11,13 @@ This is a Python-based API built with FastAPI for managing a list of items. It f
 
 ## (Recommended) Create and activate a virtual environment
 
-# with venv
+## VENV
 python -m venv env
 source env/bin/activate        # macOS/Linux
 .\env\Scripts\activate         # Windows
 
-# Install the dependencies
+## Install the dependencies
 pip install -r requirements.txt
 
-# Run the development server
+## Run the development server
 fastapi dev main.py
