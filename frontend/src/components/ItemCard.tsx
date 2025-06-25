@@ -8,7 +8,7 @@ import { deleteItem } from '../api/items'
 import queryClient from '../queryClient'
 import { toast } from 'sonner'
 
-export const ProductCard = ({ item }: { item: Item }) => {
+export const ItemCard = ({ item }: { item: Item }) => {
 	const [selectedItem, setSelectedItem] = useState<Item | null>(null)
 	const [isOpen, setIsOpen] = useState(false)
 	const [isOpenDelete, setIsOpenDelete] = useState(false)

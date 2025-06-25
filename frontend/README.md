@@ -6,3 +6,6 @@ npm install
 
 ## Start the development server:
 npm run dev
+
+## Run test in components
+npm run test

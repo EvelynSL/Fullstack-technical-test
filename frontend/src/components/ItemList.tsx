@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import type { Item } from '../lib/utils'
-import { ProductCard } from './ItemCard'
 import { Modal } from './common/Modal'
 import { ItemForm } from './ItemForm'
 import { useQuery } from '@tanstack/react-query'
 import { getItems } from '../api/items'
+import { ItemCard } from './ItemCard'
 
 export const ItemList = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -33,7 +33,7 @@ export const ItemList = () => {
 			</div>
 			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
 				{(data ?? []).map((item: Item) => (
-					<ProductCard key={item.id} item={item} />
+					<ItemCard key={item.id} item={item} />
 				))}
 			</div>
 		</section>
