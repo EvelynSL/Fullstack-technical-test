@@ -9,8 +9,7 @@ This is a Python-based API built with FastAPI for managing a list of items. It f
 - Uvicorn
 - Pydantic
 
-## (Recommended) Create and activate a virtual environment
-
+# (Recommended) Create and activate a virtual environment
 ## VENV
 python -m venv env
 source env/bin/activate        # macOS/Linux
